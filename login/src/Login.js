@@ -53,7 +53,7 @@ function insert() {
       setCookie('logged', true, { path: '/' });
 
     } else {
-      console.log("you fuckedup")
+      console.log("you not sucesssfull")
       setCookie('logged', false, { path: '/' });
       ReactDOM.render(<p>Invalid Login Details</p>, document.getElementById('inv'));
     }
